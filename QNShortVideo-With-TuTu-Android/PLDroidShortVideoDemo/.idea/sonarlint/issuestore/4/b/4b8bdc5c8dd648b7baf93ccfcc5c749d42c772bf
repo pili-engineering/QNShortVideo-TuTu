@@ -1,0 +1,25 @@
+
+Q"squid:SwitchLastCaseIsDefaultCheckÊ""Add a default case to this switch.(ºÖ
+Gsquid:S1066"/Merge this if statement with the enclosing one.(Îô—
+tsquid:S1450p"]Remove the "mCameraSetting" field and declare it as a local variable in the relevant methods.(¡’
+xsquid:S1450q"aRemove the "mMicrophoneSetting" field and declare it as a local variable in the relevant methods.(ŠàÊà
+ysquid:S1450s"bRemove the "mVideoEncodeSetting" field and declare it as a local variable in the relevant methods.(ƒêö÷
+~squid:S1450t"bRemove the "mAudioEncodeSetting" field and declare it as a local variable in the relevant methods.(òœ‹Êøÿÿÿÿ
+}squid:S1450u"aRemove the "mFaceBeautySetting" field and declare it as a local variable in the relevant methods.(Úôıéøÿÿÿÿ
+xsquid:S1450°"`Remove the "mFilterButtonView" field and declare it as a local variable in the relevant methods.(ğ Ğ
+zsquid:S1450³"]Remove the "mStickerButton" field and declare it as a local variable in the relevant methods.(£·Ùıÿÿÿÿ
+usquid:S1450¶"]Remove the "mCartoonButton" field and declare it as a local variable in the relevant methods.(¸¬¨
+}squid:S1450¹"`Remove the "mBeautySkinButton" field and declare it as a local variable in the relevant methods.(îÆ¤Öúÿÿÿÿ
+€squid:S1450¼"cRemove the "mBeautyPlasticButton" field and declare it as a local variable in the relevant methods.(º¬òùÿÿÿÿ
+osquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¨Œşÿÿÿÿ
+gsquid:CallToDeprecatedMethod"9Remove this use of "CAMERA_FACING_3RD"; it is deprecated.(ğ¬ñøÿÿÿÿ
+bsquid:CallToDeprecatedMethodŸ"9Remove this use of "CAMERA_FACING_3RD"; it is deprecated.( óË´
+`squid:S2259Ò"CA "NullPointerException" could be thrown; "draft" is nullable here.(Õ°‹˜üÿÿÿÿ
+™squid:S1186Œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•åšÀ
+squid:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ
+™squid:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–
+]squid:S2147û"ECombine this catch with the one at line 377, which has the same body.(ï­£Ä
+@squid:S1148ú"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+lsquid:S1149~"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(µËÍÙÿÿÿÿÿ
+jsquid:MaximumInheritanceDepthL"<This class has 6 parents which is greater than 5 authorized.(¡¡Ë°ıÿÿÿÿ
