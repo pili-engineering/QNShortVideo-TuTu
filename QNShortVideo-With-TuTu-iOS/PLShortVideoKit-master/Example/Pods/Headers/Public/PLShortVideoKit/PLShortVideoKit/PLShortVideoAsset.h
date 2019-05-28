@@ -1,0 +1,1 @@
+../../../../PLShortVideoKit/Pod/Library/Profession/PLShortVideoKit.framework/Headers/PLShortVideoAsset.h

@@ -1,0 +1,3 @@
+[submodule "tusdkfilterprocessormodule"]
+	path = tusdkfilterprocessormodule
+	url = git@10.10.10.21:vendor/tusdkfilterprocessormodule.git
