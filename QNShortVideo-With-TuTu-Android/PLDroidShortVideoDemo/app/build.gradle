@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+
+    defaultConfig {
+        applicationId "com.qiniu.shortvideo.tutu"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 24
+        versionName "2.0.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        buildConfigField "long", "BUILD_TIMESTAMP", System.currentTimeMillis() + "L"
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.qiniu:qiniu-android-sdk:7.3.11'
+    compile files('libs/pldroid-shortvideo-2.1.0.jar')
+    compile files('libs/pldroid-player-2.1.5.jar')
+    compile files('libs/EasyAR.jar')
+    compile files('libs/EasyAR3D.jar')
+
+    compile 'com.android.support:multidex:1.0.2'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+    compile 'com.android.support:recyclerview-v7:27.1.1'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    compile 'com.android.support:design:27.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.10.6'
+    compile 'com.github.bumptech.glide:glide:4.8.0'
+    compile project(':TuSDKFilterEngineModule')
+}
