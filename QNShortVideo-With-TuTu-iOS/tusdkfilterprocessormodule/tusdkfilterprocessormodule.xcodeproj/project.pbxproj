@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70AC486228198690005854D /* PropsItemsPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC43F228198680005854D /* PropsItemsPageView.m */; };
+		D70AC487228198690005854D /* BasePropsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC440228198680005854D /* BasePropsPanelView.m */; };
+		D70AC488228198690005854D /* FaceMonsterPropsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC442228198680005854D /* FaceMonsterPropsItem.m */; };
+		D70AC489228198690005854D /* OnlineStickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC443228198680005854D /* OnlineStickerGroup.m */; };
+		D70AC48A228198690005854D /* PropsItemStickerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC448228198680005854D /* PropsItemStickerCategory.m */; };
+		D70AC48B228198690005854D /* PropsItemMonsterCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC44A228198680005854D /* PropsItemMonsterCategory.m */; };
+		D70AC48C228198690005854D /* StickerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC44B228198680005854D /* StickerDownloader.m */; };
+		D70AC48D228198690005854D /* StickerPropsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC44D228198680005854D /* StickerPropsItem.m */; };
+		D70AC48E228198690005854D /* PropsItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC44E228198680005854D /* PropsItemCategory.m */; };
+		D70AC48F228198690005854D /* PropsPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC450228198680005854D /* PropsPanelView.m */; };
+		D70AC490228198690005854D /* UIImage+LoadBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC452228198680005854D /* UIImage+LoadBundleImage.m */; };
+		D70AC491228198690005854D /* CameraNormalFilterListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC455228198680005854D /* CameraNormalFilterListView.m */; };
+		D70AC492228198690005854D /* FilterPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC45A228198680005854D /* FilterPanelView.m */; };
+		D70AC493228198690005854D /* CameraFilterPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC45C228198680005854D /* CameraFilterPanelView.m */; };
+		D70AC494228198690005854D /* CameraComicsFilterListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC45E228198690005854D /* CameraComicsFilterListView.m */; };
+		D70AC495228198690005854D /* VideoEditFilterPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC45F228198690005854D /* VideoEditFilterPanelView.m */; };
+		D70AC496228198690005854D /* ViewSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC461228198690005854D /* ViewSlider.m */; };
+		D70AC497228198690005854D /* PageTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC463228198690005854D /* PageTabbar.m */; };
+		D70AC498228198690005854D /* DemoAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC465228198690005854D /* DemoAppearance.m */; };
+		D70AC499228198690005854D /* HorizontalListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC469228198690005854D /* HorizontalListView.m */; };
+		D70AC49A228198690005854D /* ParametersAdjustView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC46A228198690005854D /* ParametersAdjustView.m */; };
+		D70AC49B228198690005854D /* HorizontalListItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC46D228198690005854D /* HorizontalListItemView.m */; };
+		D70AC49C228198690005854D /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC46E228198690005854D /* CustomSlider.m */; };
+		D70AC49D228198690005854D /* CartoonPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC471228198690005854D /* CartoonPanelView.m */; };
+		D70AC49E228198690005854D /* EffectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC476228198690005854D /* EffectsView.m */; };
+		D70AC49F228198690005854D /* EffectsDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC478228198690005854D /* EffectsDisplayView.m */; };
+		D70AC4A0228198690005854D /* EffectsItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC47B228198690005854D /* EffectsItemView.m */; };
+		D70AC4A1228198690005854D /* CameraBeautyPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC47D228198690005854D /* CameraBeautyPanelView.m */; };
+		D70AC4A2228198690005854D /* CameraBeautySkinListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC47E228198690005854D /* CameraBeautySkinListView.m */; };
+		D70AC4A3228198690005854D /* CameraBeautyFaceListItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC47F228198690005854D /* CameraBeautyFaceListItemView.m */; };
+		D70AC4A4228198690005854D /* CameraBeautyFaceListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC480228198690005854D /* CameraBeautyFaceListView.m */; };
+		D70AC4A5228198690005854D /* TuSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D70AC485228198690005854D /* TuSDKManager.m */; };
+		D70AC4AD228198F70005854D /* libyuv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70AC4AA228198A30005854D /* libyuv.framework */; };
+		D70AC4AE228198F70005854D /* TuSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70AC4AB228198A30005854D /* TuSDK.framework */; };
+		D70AC4AF228198F70005854D /* TuSDKFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70AC4A9228198A30005854D /* TuSDKFace.framework */; };
+		D70AC4B0228198F70005854D /* TuSDKVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70AC4A8228198A30005854D /* TuSDKVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D70AC42C228198320005854D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D70AC42E228198320005854D /* libtusdkfilterprocessormodule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtusdkfilterprocessormodule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70AC43A228198680005854D /* TuSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuSDKManager.h; sourceTree = "<group>"; };
+		D70AC43D228198680005854D /* BasePropsPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePropsPanelView.h; sourceTree = "<group>"; };
+		D70AC43E228198680005854D /* PropsPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsPanelView.h; sourceTree = "<group>"; };
+		D70AC43F228198680005854D /* PropsItemsPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsItemsPageView.m; sourceTree = "<group>"; };
+		D70AC440228198680005854D /* BasePropsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePropsPanelView.m; sourceTree = "<group>"; };
+		D70AC442228198680005854D /* FaceMonsterPropsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceMonsterPropsItem.m; sourceTree = "<group>"; };
+		D70AC443228198680005854D /* OnlineStickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineStickerGroup.m; sourceTree = "<group>"; };
+		D70AC444228198680005854D /* StickerDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerDownloader.h; sourceTree = "<group>"; };
+		D70AC445228198680005854D /* PropsItemMonsterCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsItemMonsterCategory.h; sourceTree = "<group>"; };
+		D70AC446228198680005854D /* PropsItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsItemCategory.h; sourceTree = "<group>"; };
+		D70AC447228198680005854D /* StickerPropsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPropsItem.h; sourceTree = "<group>"; };
+		D70AC448228198680005854D /* PropsItemStickerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsItemStickerCategory.m; sourceTree = "<group>"; };
+		D70AC449228198680005854D /* FaceMonsterPropsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceMonsterPropsItem.h; sourceTree = "<group>"; };
+		D70AC44A228198680005854D /* PropsItemMonsterCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsItemMonsterCategory.m; sourceTree = "<group>"; };
+		D70AC44B228198680005854D /* StickerDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerDownloader.m; sourceTree = "<group>"; };
+		D70AC44C228198680005854D /* OnlineStickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineStickerGroup.h; sourceTree = "<group>"; };
+		D70AC44D228198680005854D /* StickerPropsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPropsItem.m; sourceTree = "<group>"; };
+		D70AC44E228198680005854D /* PropsItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsItemCategory.m; sourceTree = "<group>"; };
+		D70AC44F228198680005854D /* PropsItemStickerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsItemStickerCategory.h; sourceTree = "<group>"; };
+		D70AC450228198680005854D /* PropsPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropsPanelView.m; sourceTree = "<group>"; };
+		D70AC451228198680005854D /* PropsItemsPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropsItemsPageView.h; sourceTree = "<group>"; };
+		D70AC452228198680005854D /* UIImage+LoadBundleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LoadBundleImage.m"; sourceTree = "<group>"; };
+		D70AC454228198680005854D /* CameraFilterPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFilterPanelView.h; sourceTree = "<group>"; };
+		D70AC455228198680005854D /* CameraNormalFilterListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraNormalFilterListView.m; sourceTree = "<group>"; };
+		D70AC456228198680005854D /* FilterPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterPanelView.h; sourceTree = "<group>"; };
+		D70AC457228198680005854D /* CameraComicsFilterListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraComicsFilterListView.h; sourceTree = "<group>"; };
+		D70AC458228198680005854D /* CameraFilterPanelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFilterPanelProtocol.h; sourceTree = "<group>"; };
+		D70AC459228198680005854D /* VideoEditFilterPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEditFilterPanelView.h; sourceTree = "<group>"; };
+		D70AC45A228198680005854D /* FilterPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterPanelView.m; sourceTree = "<group>"; };
+		D70AC45B228198680005854D /* CameraNormalFilterListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraNormalFilterListView.h; sourceTree = "<group>"; };
+		D70AC45C228198680005854D /* CameraFilterPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFilterPanelView.m; sourceTree = "<group>"; };
+		D70AC45D228198690005854D /* FilterPanelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterPanelProtocol.h; sourceTree = "<group>"; };
+		D70AC45E228198690005854D /* CameraComicsFilterListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraComicsFilterListView.m; sourceTree = "<group>"; };
+		D70AC45F228198690005854D /* VideoEditFilterPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEditFilterPanelView.m; sourceTree = "<group>"; };
+		D70AC461228198690005854D /* ViewSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSlider.m; sourceTree = "<group>"; };
+		D70AC462228198690005854D /* ParametersAdjustView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametersAdjustView.h; sourceTree = "<group>"; };
+		D70AC463228198690005854D /* PageTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTabbar.m; sourceTree = "<group>"; };
+		D70AC464228198690005854D /* HorizontalListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalListView.h; sourceTree = "<group>"; };
+		D70AC465228198690005854D /* DemoAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAppearance.m; sourceTree = "<group>"; };
+		D70AC466228198690005854D /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		D70AC467228198690005854D /* HorizontalListItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalListItemView.h; sourceTree = "<group>"; };
+		D70AC468228198690005854D /* ViewSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSlider.h; sourceTree = "<group>"; };
+		D70AC469228198690005854D /* HorizontalListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalListView.m; sourceTree = "<group>"; };
+		D70AC46A228198690005854D /* ParametersAdjustView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametersAdjustView.m; sourceTree = "<group>"; };
+		D70AC46B228198690005854D /* PageTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTabbar.h; sourceTree = "<group>"; };
+		D70AC46C228198690005854D /* DemoAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAppearance.h; sourceTree = "<group>"; };
+		D70AC46D228198690005854D /* HorizontalListItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalListItemView.m; sourceTree = "<group>"; };
+		D70AC46E228198690005854D /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		D70AC470228198690005854D /* CartoonPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartoonPanelView.h; sourceTree = "<group>"; };
+		D70AC471228198690005854D /* CartoonPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartoonPanelView.m; sourceTree = "<group>"; };
+		D70AC472228198690005854D /* UIImage+LoadBundleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LoadBundleImage.h"; sourceTree = "<group>"; };
+		D70AC474228198690005854D /* OverlayViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewProtocol.h; sourceTree = "<group>"; };
+		D70AC476228198690005854D /* EffectsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsView.m; sourceTree = "<group>"; };
+		D70AC477228198690005854D /* EffectsItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsItemView.h; sourceTree = "<group>"; };
+		D70AC478228198690005854D /* EffectsDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsDisplayView.m; sourceTree = "<group>"; };
+		D70AC479228198690005854D /* EffectsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsView.h; sourceTree = "<group>"; };
+		D70AC47A228198690005854D /* EffectsDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsDisplayView.h; sourceTree = "<group>"; };
+		D70AC47B228198690005854D /* EffectsItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsItemView.m; sourceTree = "<group>"; };
+		D70AC47D228198690005854D /* CameraBeautyPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBeautyPanelView.m; sourceTree = "<group>"; };
+		D70AC47E228198690005854D /* CameraBeautySkinListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBeautySkinListView.m; sourceTree = "<group>"; };
+		D70AC47F228198690005854D /* CameraBeautyFaceListItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBeautyFaceListItemView.m; sourceTree = "<group>"; };
+		D70AC480228198690005854D /* CameraBeautyFaceListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBeautyFaceListView.m; sourceTree = "<group>"; };
+		D70AC481228198690005854D /* CameraBeautyPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBeautyPanelView.h; sourceTree = "<group>"; };
+		D70AC482228198690005854D /* CameraBeautySkinListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBeautySkinListView.h; sourceTree = "<group>"; };
+		D70AC483228198690005854D /* CameraBeautyFaceListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBeautyFaceListView.h; sourceTree = "<group>"; };
+		D70AC484228198690005854D /* CameraBeautyFaceListItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBeautyFaceListItemView.h; sourceTree = "<group>"; };
+		D70AC485228198690005854D /* TuSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuSDKManager.m; sourceTree = "<group>"; };
+		D70AC4A8228198A30005854D /* TuSDKVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDKVideo.framework; sourceTree = "<group>"; };
+		D70AC4A9228198A30005854D /* TuSDKFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDKFace.framework; sourceTree = "<group>"; };
+		D70AC4AA228198A30005854D /* libyuv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libyuv.framework; sourceTree = "<group>"; };
+		D70AC4AB228198A30005854D /* TuSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDK.framework; sourceTree = "<group>"; };
+		D70AC4B12281992B0005854D /* TuSDKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuSDKFramework.h; sourceTree = "<group>"; };
+		D70AC4B62281AF580005854D /* TuSDKFilterProgressorUIProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuSDKFilterProgressorUIProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70AC42B228198320005854D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70AC4AD228198F70005854D /* libyuv.framework in Frameworks */,
+				D70AC4AE228198F70005854D /* TuSDK.framework in Frameworks */,
+				D70AC4AF228198F70005854D /* TuSDKFace.framework in Frameworks */,
+				D70AC4B0228198F70005854D /* TuSDKVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70AC425228198320005854D = {
+			isa = PBXGroup;
+			children = (
+				D70AC430228198320005854D /* tusdkfilterprocessormodule */,
+				D70AC42F228198320005854D /* Products */,
+				D70AC4AC228198F70005854D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D70AC42F228198320005854D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC42E228198320005854D /* libtusdkfilterprocessormodule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70AC430228198320005854D /* tusdkfilterprocessormodule */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC4A6228198A30005854D /* TuSDKFramework */,
+				D70AC4B62281AF580005854D /* TuSDKFilterProgressorUIProtocol.h */,
+				D70AC4B12281992B0005854D /* TuSDKFramework.h */,
+				D70AC43A228198680005854D /* TuSDKManager.h */,
+				D70AC485228198690005854D /* TuSDKManager.m */,
+				D70AC43B228198680005854D /* Views */,
+			);
+			path = tusdkfilterprocessormodule;
+			sourceTree = "<group>";
+		};
+		D70AC43B228198680005854D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC460228198690005854D /* BaseView */,
+				D70AC47C228198690005854D /* BeautyList */,
+				D70AC46F228198690005854D /* CartoonView */,
+				D70AC453228198680005854D /* FilterView */,
+				D70AC474228198690005854D /* OverlayViewProtocol.h */,
+				D70AC43C228198680005854D /* PropsPanel */,
+				D70AC475228198690005854D /* ScenceView */,
+				D70AC472228198690005854D /* UIImage+LoadBundleImage.h */,
+				D70AC452228198680005854D /* UIImage+LoadBundleImage.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D70AC43C228198680005854D /* PropsPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC43D228198680005854D /* BasePropsPanelView.h */,
+				D70AC440228198680005854D /* BasePropsPanelView.m */,
+				D70AC441228198680005854D /* Model */,
+				D70AC451228198680005854D /* PropsItemsPageView.h */,
+				D70AC43F228198680005854D /* PropsItemsPageView.m */,
+				D70AC43E228198680005854D /* PropsPanelView.h */,
+				D70AC450228198680005854D /* PropsPanelView.m */,
+			);
+			path = PropsPanel;
+			sourceTree = "<group>";
+		};
+		D70AC441228198680005854D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC449228198680005854D /* FaceMonsterPropsItem.h */,
+				D70AC442228198680005854D /* FaceMonsterPropsItem.m */,
+				D70AC44C228198680005854D /* OnlineStickerGroup.h */,
+				D70AC443228198680005854D /* OnlineStickerGroup.m */,
+				D70AC446228198680005854D /* PropsItemCategory.h */,
+				D70AC44E228198680005854D /* PropsItemCategory.m */,
+				D70AC445228198680005854D /* PropsItemMonsterCategory.h */,
+				D70AC44A228198680005854D /* PropsItemMonsterCategory.m */,
+				D70AC44F228198680005854D /* PropsItemStickerCategory.h */,
+				D70AC448228198680005854D /* PropsItemStickerCategory.m */,
+				D70AC444228198680005854D /* StickerDownloader.h */,
+				D70AC44B228198680005854D /* StickerDownloader.m */,
+				D70AC447228198680005854D /* StickerPropsItem.h */,
+				D70AC44D228198680005854D /* StickerPropsItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D70AC453228198680005854D /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC457228198680005854D /* CameraComicsFilterListView.h */,
+				D70AC45E228198690005854D /* CameraComicsFilterListView.m */,
+				D70AC458228198680005854D /* CameraFilterPanelProtocol.h */,
+				D70AC454228198680005854D /* CameraFilterPanelView.h */,
+				D70AC45C228198680005854D /* CameraFilterPanelView.m */,
+				D70AC45B228198680005854D /* CameraNormalFilterListView.h */,
+				D70AC455228198680005854D /* CameraNormalFilterListView.m */,
+				D70AC45D228198690005854D /* FilterPanelProtocol.h */,
+				D70AC456228198680005854D /* FilterPanelView.h */,
+				D70AC45A228198680005854D /* FilterPanelView.m */,
+				D70AC459228198680005854D /* VideoEditFilterPanelView.h */,
+				D70AC45F228198690005854D /* VideoEditFilterPanelView.m */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		D70AC460228198690005854D /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC461228198690005854D /* ViewSlider.m */,
+				D70AC462228198690005854D /* ParametersAdjustView.h */,
+				D70AC463228198690005854D /* PageTabbar.m */,
+				D70AC464228198690005854D /* HorizontalListView.h */,
+				D70AC465228198690005854D /* DemoAppearance.m */,
+				D70AC466228198690005854D /* CustomSlider.h */,
+				D70AC467228198690005854D /* HorizontalListItemView.h */,
+				D70AC468228198690005854D /* ViewSlider.h */,
+				D70AC469228198690005854D /* HorizontalListView.m */,
+				D70AC46A228198690005854D /* ParametersAdjustView.m */,
+				D70AC46B228198690005854D /* PageTabbar.h */,
+				D70AC46C228198690005854D /* DemoAppearance.h */,
+				D70AC46D228198690005854D /* HorizontalListItemView.m */,
+				D70AC46E228198690005854D /* CustomSlider.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		D70AC46F228198690005854D /* CartoonView */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC470228198690005854D /* CartoonPanelView.h */,
+				D70AC471228198690005854D /* CartoonPanelView.m */,
+			);
+			path = CartoonView;
+			sourceTree = "<group>";
+		};
+		D70AC475228198690005854D /* ScenceView */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC47A228198690005854D /* EffectsDisplayView.h */,
+				D70AC478228198690005854D /* EffectsDisplayView.m */,
+				D70AC477228198690005854D /* EffectsItemView.h */,
+				D70AC47B228198690005854D /* EffectsItemView.m */,
+				D70AC479228198690005854D /* EffectsView.h */,
+				D70AC476228198690005854D /* EffectsView.m */,
+			);
+			path = ScenceView;
+			sourceTree = "<group>";
+		};
+		D70AC47C228198690005854D /* BeautyList */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC47D228198690005854D /* CameraBeautyPanelView.m */,
+				D70AC47E228198690005854D /* CameraBeautySkinListView.m */,
+				D70AC47F228198690005854D /* CameraBeautyFaceListItemView.m */,
+				D70AC480228198690005854D /* CameraBeautyFaceListView.m */,
+				D70AC481228198690005854D /* CameraBeautyPanelView.h */,
+				D70AC482228198690005854D /* CameraBeautySkinListView.h */,
+				D70AC483228198690005854D /* CameraBeautyFaceListView.h */,
+				D70AC484228198690005854D /* CameraBeautyFaceListItemView.h */,
+			);
+			path = BeautyList;
+			sourceTree = "<group>";
+		};
+		D70AC4A6228198A30005854D /* TuSDKFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D70AC4A8228198A30005854D /* TuSDKVideo.framework */,
+				D70AC4A9228198A30005854D /* TuSDKFace.framework */,
+				D70AC4AA228198A30005854D /* libyuv.framework */,
+				D70AC4AB228198A30005854D /* TuSDK.framework */,
+			);
+			path = TuSDKFramework;
+			sourceTree = "<group>";
+		};
+		D70AC4AC228198F70005854D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70AC42D228198320005854D /* tusdkfilterprocessormodule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70AC437228198320005854D /* Build configuration list for PBXNativeTarget "tusdkfilterprocessormodule" */;
+			buildPhases = (
+				D70AC42A228198320005854D /* Sources */,
+				D70AC42B228198320005854D /* Frameworks */,
+				D70AC42C228198320005854D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tusdkfilterprocessormodule;
+			productName = tusdkfilterprocessormodule;
+			productReference = D70AC42E228198320005854D /* libtusdkfilterprocessormodule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70AC426228198320005854D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					D70AC42D228198320005854D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D70AC429228198320005854D /* Build configuration list for PBXProject "tusdkfilterprocessormodule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D70AC425228198320005854D;
+			productRefGroup = D70AC42F228198320005854D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70AC42D228198320005854D /* tusdkfilterprocessormodule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70AC42A228198320005854D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70AC494228198690005854D /* CameraComicsFilterListView.m in Sources */,
+				D70AC488228198690005854D /* FaceMonsterPropsItem.m in Sources */,
+				D70AC496228198690005854D /* ViewSlider.m in Sources */,
+				D70AC49A228198690005854D /* ParametersAdjustView.m in Sources */,
+				D70AC4A1228198690005854D /* CameraBeautyPanelView.m in Sources */,
+				D70AC48A228198690005854D /* PropsItemStickerCategory.m in Sources */,
+				D70AC49E228198690005854D /* EffectsView.m in Sources */,
+				D70AC495228198690005854D /* VideoEditFilterPanelView.m in Sources */,
+				D70AC48C228198690005854D /* StickerDownloader.m in Sources */,
+				D70AC4A4228198690005854D /* CameraBeautyFaceListView.m in Sources */,
+				D70AC497228198690005854D /* PageTabbar.m in Sources */,
+				D70AC48B228198690005854D /* PropsItemMonsterCategory.m in Sources */,
+				D70AC48F228198690005854D /* PropsPanelView.m in Sources */,
+				D70AC486228198690005854D /* PropsItemsPageView.m in Sources */,
+				D70AC49B228198690005854D /* HorizontalListItemView.m in Sources */,
+				D70AC4A5228198690005854D /* TuSDKManager.m in Sources */,
+				D70AC493228198690005854D /* CameraFilterPanelView.m in Sources */,
+				D70AC498228198690005854D /* DemoAppearance.m in Sources */,
+				D70AC49D228198690005854D /* CartoonPanelView.m in Sources */,
+				D70AC4A0228198690005854D /* EffectsItemView.m in Sources */,
+				D70AC48D228198690005854D /* StickerPropsItem.m in Sources */,
+				D70AC49C228198690005854D /* CustomSlider.m in Sources */,
+				D70AC492228198690005854D /* FilterPanelView.m in Sources */,
+				D70AC490228198690005854D /* UIImage+LoadBundleImage.m in Sources */,
+				D70AC48E228198690005854D /* PropsItemCategory.m in Sources */,
+				D70AC499228198690005854D /* HorizontalListView.m in Sources */,
+				D70AC4A2228198690005854D /* CameraBeautySkinListView.m in Sources */,
+				D70AC489228198690005854D /* OnlineStickerGroup.m in Sources */,
+				D70AC491228198690005854D /* CameraNormalFilterListView.m in Sources */,
+				D70AC4A3228198690005854D /* CameraBeautyFaceListItemView.m in Sources */,
+				D70AC49F228198690005854D /* EffectsDisplayView.m in Sources */,
+				D70AC487228198690005854D /* BasePropsPanelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D70AC435228198320005854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D70AC436228198320005854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70AC438228198320005854D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6DX88HX28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tusdkfilterprocessormodule/TuSDKFramework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D70AC439228198320005854D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6DX88HX28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tusdkfilterprocessormodule/TuSDKFramework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70AC429228198320005854D /* Build configuration list for PBXProject "tusdkfilterprocessormodule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70AC435228198320005854D /* Debug */,
+				D70AC436228198320005854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70AC437228198320005854D /* Build configuration list for PBXNativeTarget "tusdkfilterprocessormodule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70AC438228198320005854D /* Debug */,
+				D70AC439228198320005854D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70AC426228198320005854D /* Project object */;
+}
