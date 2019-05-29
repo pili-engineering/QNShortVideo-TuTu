@@ -1,9 +1,9 @@
 # 1 QNShortVideo with TuTu
-这个开源示例代码演示了 [七牛短视频](https://www.qiniu.com/products/plsv) 快速集成 [涂图](https://tutucloud.com/) 美颜、贴纸和抖音特效。
+这个开源示例代码演示了 [七牛短视频](https://www.qiniu.com/products/plsv) 快速集成涂图美颜、贴纸和抖音特效等效果的集成姿势。
 
 # 2 功能点介绍
 
-这个示例代码中，视频录制的时候演示添加涂图美颜、滤镜、贴纸等功能，视频编辑的时候演示涂图抖音特效和涂图高级滤镜的添加。
+这个示例代码中，视频录制的时候演示添加涂图美颜、滤镜、贴纸以及变声等功能，视频编辑的时候演示涂图抖音特效和涂图高级滤镜的添加。
 
 ##  2.1 视频录制
 
@@ -35,9 +35,7 @@
 - 灵魂出窍、旧电视、抖动等特效
 - 高级滤镜
 
-七牛短视频 详细的功能列表请查看 七牛短视频 [功能列表](https://developer.qiniu.com/pili/sdk/3731/short-video) 或七牛短视频 [开发文档](https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk)
-
-涂图特效 详细的功能列表请查看 涂图 [开发文档](https://tutucloud.com/docs/android-shortvideo/get-started)
+详细的功能列表请查看 七牛短视频 [功能列表](https://developer.qiniu.com/pili/sdk/3731/short-video) 或七牛短视频 [开发文档](https://developer.qiniu.com/pili/sdk/3734/android-short-video-sdk)
 
 # 3 声明
 
