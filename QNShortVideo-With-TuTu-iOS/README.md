@@ -36,9 +36,9 @@
 - 灵魂出窍、旧电视、抖动等特效
 - 高级滤镜
 
-七牛短视频 详细的功能列表请查看 七牛短视频[功能列表](https://developer.qiniu.com/pili/sdk/3731/short-video) 或七牛短视频[开发文档](https://developer.qiniu.com/pili/sdk/3733/short-video-ios-sdk)
+七牛短视频 详细的功能列表请查看 七牛短视频 [功能列表](https://developer.qiniu.com/pili/sdk/3731/short-video) 或七牛短视频 [开发文档](https://developer.qiniu.com/pili/sdk/3733/short-video-ios-sdk)
 
-涂图特效 详细的功能列表请查看 涂图[开发文档](https://tutucloud.com/docs/ios-shortvideo/get-started)
+涂图特效 详细的功能列表请查看 涂图 [开发文档](https://tutucloud.com/docs/ios-shortvideo/get-started)
 
 # 3 声明
 
