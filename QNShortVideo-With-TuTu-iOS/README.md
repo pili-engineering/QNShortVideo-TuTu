@@ -1,5 +1,5 @@
 # 1 QNShortVideo with TuTu
-这个开源示例代码演示了 [七牛短视频](https://www.qiniu.com/products/plsvhttps://www.qiniu.com/products/plsv) 快速集成 [涂图](https://tutucloud.com/) 美颜、贴纸和抖音特效。
+这个开源示例代码演示了 [七牛短视频](https://www.qiniu.com/products/plsv) 快速集成 [涂图](https://tutucloud.com/) 美颜、贴纸和抖音特效。
 
 # 2 功能点介绍
 
