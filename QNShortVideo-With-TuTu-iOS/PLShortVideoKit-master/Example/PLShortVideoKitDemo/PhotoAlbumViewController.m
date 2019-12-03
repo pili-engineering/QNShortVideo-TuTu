@@ -793,6 +793,7 @@ static NSString * const reuseIdentifier = @"Cell";
     EditViewController *videoEditViewController = [[EditViewController alloc] init];
     videoEditViewController.settings = outputSettings;
     videoEditViewController.filesURLArray = @[url];
+    videoEditViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoEditViewController animated:YES completion:nil];
 }
 
@@ -839,6 +840,7 @@ static NSString * const reuseIdentifier = @"Cell";
         
         MovieTransCodeViewController *transCodeViewController = [[MovieTransCodeViewController alloc] init];
         transCodeViewController.url = url;
+        transCodeViewController.modalPresentationStyle = UIModalPresentationFullScreen;
         [weakSelf presentViewController:transCodeViewController animated:YES completion:nil];
     }];
     [self.imageToMovieComposer setFailureBlock:^(NSError *error) {
@@ -861,6 +863,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewRecordEvent {
     ViewRecordViewController *viewRecordViewController = [[ViewRecordViewController alloc] init];
     viewRecordViewController.selectedAssets = self.dynamicScrollView.selectedAssets;
+    viewRecordViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:viewRecordViewController animated:YES completion:nil];
 }
 
@@ -868,6 +871,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)movieTransCodeEvent {
     MovieTransCodeViewController *transCodeViewController = [[MovieTransCodeViewController alloc] init];
     transCodeViewController.url = self.urls[0];
+    transCodeViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:transCodeViewController animated:YES completion:nil];
 }
 
@@ -899,6 +903,7 @@ static NSString * const reuseIdentifier = @"Cell";
         
         MovieTransCodeViewController *transCodeViewController = [[MovieTransCodeViewController alloc] init];
         transCodeViewController.url = url;
+        transCodeViewController.modalPresentationStyle = UIModalPresentationFullScreen;
         [weakSelf presentViewController:transCodeViewController animated:YES completion:nil];
     }];
     [self.movieComposer setFailureBlock:^(NSError *error) {

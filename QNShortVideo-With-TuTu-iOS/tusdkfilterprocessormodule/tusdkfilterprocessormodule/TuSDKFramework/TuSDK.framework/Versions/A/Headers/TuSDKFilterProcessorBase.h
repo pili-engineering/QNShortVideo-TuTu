@@ -67,6 +67,11 @@
 @property (nonatomic) CGSize outputSize;
 
 /**
+ 输出比例与原视频比例不一致时是否自适应画布大小
+ */
+@property (nonatomic) BOOL aspectOutputRatioInSideCanvas;
+
+/**
  *  初始化
  *
  *  支持： kCVPixelFormatType_420YpCbCr8BiPlanarFullRange | kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange kCVPixelFormatType_32BGRA
@@ -128,7 +133,7 @@
  设置输出尺寸
 
  @param outputSize 输出尺寸
- @param enableClip 输出比例与原视频比例不一致时是否自适应画布大小
+ @param aspectOutputRatioInSideCanvas 输出比例与原视频比例不一致时是否自适应画布大小
  */
 - (void)setOutputSize:(CGSize)outputSize aspectOutputRatioInSideCanvas:(BOOL)aspectOutputRatioInSideCanvas;
 

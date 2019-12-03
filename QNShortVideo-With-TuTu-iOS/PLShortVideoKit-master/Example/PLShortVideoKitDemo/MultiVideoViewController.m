@@ -126,7 +126,7 @@
     VideoSelectViewController *videoSelectViewController = [[VideoSelectViewController alloc] init];
     videoSelectViewController.actionType = enumVideoNextActionPingtu;
     videoSelectViewController.needVideoCount = button.tag;
-    
+    videoSelectViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoSelectViewController animated:YES completion:nil];
 }
 
@@ -134,7 +134,7 @@
     VideoSelectViewController *videoSelectViewController = [[VideoSelectViewController alloc] init];
     videoSelectViewController.actionType = enumVideoNextActionRecording;
     videoSelectViewController.needVideoCount = 1;
-    
+    videoSelectViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoSelectViewController animated:YES completion:nil];
 }
 

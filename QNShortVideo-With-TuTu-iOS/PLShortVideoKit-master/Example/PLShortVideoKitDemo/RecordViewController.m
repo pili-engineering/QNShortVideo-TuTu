@@ -914,6 +914,7 @@ TuSDKAudioPitchEngineDelegate
 // 导入视频
 - (void)importMovieButtonEvent:(id)sender {
     PhotoAlbumViewController *photoAlbumViewController = [[PhotoAlbumViewController alloc] init];
+    photoAlbumViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:photoAlbumViewController animated:YES completion:nil];
 }
 
@@ -989,6 +990,7 @@ TuSDKAudioPitchEngineDelegate
     
     EditViewController *videoEditViewController = [[EditViewController alloc] init];
     videoEditViewController.settings = outputSettings;
+    videoEditViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoEditViewController animated:YES completion:nil];
 }
 
@@ -1007,6 +1009,7 @@ TuSDKAudioPitchEngineDelegate
     
     EditViewController *videoEditViewController = [[EditViewController alloc] init];
     videoEditViewController.settings = outputSettings;
+    videoEditViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoEditViewController animated:YES completion:nil];
 }
 
@@ -1228,6 +1231,7 @@ TuSDKAudioPitchEngineDelegate
     EditViewController *videoEditViewController = [[EditViewController alloc] init];
     videoEditViewController.settings = outputSettings;
     videoEditViewController.filesURLArray = filesURLArray;
+    videoEditViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoEditViewController animated:YES completion:nil];
 }
 #pragma mark - 输出路径
@@ -1468,6 +1472,7 @@ TuSDKAudioPitchEngineDelegate
 - (void)ARButtonOnClick:(id)sender {
     EasyarARViewController *easyerARViewController = [[EasyarARViewController alloc]init];
     [easyerARViewController loadARID:@"287e6520eff14884be463d61efb40ba8"];
+    easyerARViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:easyerARViewController animated:NO completion:nil];
 }
 

@@ -471,14 +471,20 @@ static NSString *PLSTimelineItemCellId = @"PLSTimelineItemCell";
 }
 
 - (CGFloat)getCurrentTime {
-    CGFloat offsetPoint = self.indicator.center.x + self.collectionView.contentOffset.x; //中间指针距离第一张图片的偏移量
-    if (offsetPoint < 0) {
-        offsetPoint = 0;
-    } else if (offsetPoint > self.totalItemsWidth) {
-        offsetPoint = self.totalItemsWidth;
-    }
-    
-    CGFloat timeFromOffset = [self timeWithOffset:offsetPoint];
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+    __block CGFloat timeFromOffset = 0;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        CGFloat offsetPoint = self.indicator.center.x + self.collectionView.contentOffset.x; //中间指针距离第一张图片的偏移量
+        if (offsetPoint < 0) {
+            offsetPoint = 0;
+        } else if (offsetPoint > self.totalItemsWidth) {
+            offsetPoint = self.totalItemsWidth;
+        }
+        
+        timeFromOffset = [self timeWithOffset:offsetPoint];
+        dispatch_semaphore_signal(semaphore);
+    });
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
     return timeFromOffset;
 }
 

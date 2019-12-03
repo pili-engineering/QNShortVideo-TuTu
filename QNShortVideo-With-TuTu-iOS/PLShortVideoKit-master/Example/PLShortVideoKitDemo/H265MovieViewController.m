@@ -91,6 +91,7 @@ static NSString *reuseIdentifier = @"reuseIdentifier";
             // 转码
             MovieTransCodeViewController *transCodeViewController = [[MovieTransCodeViewController alloc] init];
             transCodeViewController.url = url;
+            transCodeViewController.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:transCodeViewController animated:YES completion:nil];
             
         }

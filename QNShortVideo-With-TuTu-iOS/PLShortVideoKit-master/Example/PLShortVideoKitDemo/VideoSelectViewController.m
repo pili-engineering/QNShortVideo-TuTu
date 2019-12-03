@@ -46,12 +46,14 @@
         
         VideoMixViewController *mulitMixViewController = [[VideoMixViewController alloc] init];
         mulitMixViewController.urls = urls;
+        mulitMixViewController.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:mulitMixViewController animated:YES completion:nil];
         
     } else if (enumVideoNextActionRecording == self.actionType) {
         
         MixRecordViewController *recordViewController = [[MixRecordViewController alloc] init];
         recordViewController.mixURL = urls[0];
+        recordViewController.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:recordViewController animated:YES completion:nil];
         
     }

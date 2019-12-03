@@ -60,6 +60,11 @@
 @property (nonatomic) BOOL smudgeEnabled;
 
 /**
+ *  画笔涂抹
+ */
+@property (nonatomic) BOOL paintEnabled;
+
+/**
  *  smudge and filter
  */
 @property (nonatomic) BOOL wipeFilterEnabled;
@@ -222,6 +227,49 @@
 @property (nonatomic) BOOL videoEditorImageStickerSupport;
 
 /**
+ video composition support 合成视频 是否视频合成
+ 
+ @return 是否支持
+ @since 3.4.1
+ */
+@property (nonatomic) BOOL videoCompositionSupport;
+
+/**
+ video editor transition support 编辑视频 是否支持转场特效
+ 
+ @return 是否支持
+ @since 3.4.1
+ */
+@property (nonatomic) BOOL videoEditorTransitionSupport;
+
+#pragma mark Eva
+
+/** 替换占位文字 */
+@property (nonatomic) BOOL evaEditorReplaceTxtSupport;
+
+/** 替换占位图片 */
+@property (nonatomic) BOOL evaEditorReplaceImgSupport;
+
+/** 替换占位视频 */
+@property (nonatomic) BOOL evaEditorReplaceVideoSupport;
+
+/** 替换占位音频 */
+@property (nonatomic) BOOL evaEditorReplaceAudioSupport;
+
+/** 去除版权声明 */
+@property (nonatomic) BOOL evaEditorWipeCopyRightSupport;
+
+/** 自定义码率 */
+@property (nonatomic) BOOL evaEditorBitrateSupport;
+
+/** 自定义分辨率 */
+@property (nonatomic) BOOL evaEditorResolutionSupport;
+
+/** 导出时添加水印 */
+@property (nonatomic) BOOL evaEditorAddMarkImageSupport;
+
+
+/**
  *  Filter list which could be used by FilterAPI
  */
 @property (nonatomic) NSArray *filterAPIList;
@@ -229,6 +277,13 @@
 @end
 
 #pragma mark - TuSDKConfig
+
+// 应用类型
+const static int lsqAppTypeImage = 1;  // 图像编辑
+const static int lsqAppTypeLive  = 64;  // 直播
+const static int lsqAppTypeShortVideo = 128;  // 短视频
+const static int lsqAppTypeVideoEva = 8192;  // 视频融合
+
 /**
  *  Sdk配置
  */
@@ -236,6 +291,7 @@
 
 /**
  appType 标识 SDK 类型 [图像，视频，直播]
+ 1 图像编辑  64 直播 128 短视频 8192 视频融合
  */
 @property (nonatomic) NSNumber *appType;
 

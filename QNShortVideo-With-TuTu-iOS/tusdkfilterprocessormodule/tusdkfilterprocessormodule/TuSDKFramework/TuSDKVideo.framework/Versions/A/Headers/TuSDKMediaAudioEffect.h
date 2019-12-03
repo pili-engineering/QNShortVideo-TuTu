@@ -58,4 +58,11 @@ typedef void(^TuSDKMediaAudioEffectVolumeChangedBlock)(CGFloat);
  */
 @property (nonatomic) BOOL looping;
 
+/**
+ 输入的音频持续时间
+ @sicne v3.4.0
+ */
+@property (nonatomic, readonly) CMTime inputAudioTime;
+
+
 @end

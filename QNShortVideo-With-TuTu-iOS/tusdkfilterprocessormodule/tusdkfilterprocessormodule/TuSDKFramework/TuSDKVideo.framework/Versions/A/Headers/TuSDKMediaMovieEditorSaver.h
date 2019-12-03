@@ -13,7 +13,7 @@
 #import "TuSDKMediaAudioRender.h"
 #import "TuSDKMediaEffect.h"
 #import "TuSDKMediaEffectSync.h"
-#import "TuSDKComboFilterWrapChain.h"
+#import "TuSDKVideoImport.h"
 #import "TuSDKMovieEditorOptions.h"
 
 
@@ -29,7 +29,7 @@
 /**
  初始化视频导出会话
 
- @param asset 输入的视频资源
+ @param inputAsset 输入的视频资源
  @param mediaEffects 导出的特效信息
  @param exportOutputSettings 输出设置
  @return TuSDKMovieEditorExportSession

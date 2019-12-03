@@ -70,9 +70,14 @@
 @property (nonatomic, retain) UIColor * _Nullable canvasColor;
 
 /**
- *  导出视频的文件格式（默认:lsqFileTypeMPEG4）
+ *  导出视频的文件格式（默认:lsqFileTypeQuickTimeMovie）
  */
 @property (nonatomic, assign) lsqFileType fileType;
+
+/**
+ * 导出视频的文件路径
+ */
+@property (nonatomic, strong) NSURL * _Nullable outputURL;
 
 /**
  *  设置编码时视频的画质
@@ -94,7 +99,7 @@
 @property (nonatomic,assign) BOOL enableVideoSound;
 
 /**
- 是否开启转码 默认：YES 开启后 SDK 将会根据视频信息优化视频。
+ 是否开启转码 默认：NO 开启后 SDK 将会根据视频信息优化视频。
  如果使用时间特效，该配置项建议启用。
  @since v3.0
  */
@@ -127,6 +132,15 @@
  @since v3.3.2
  */
 @property (nonatomic,readonly) TuSDKMovieEditorOutputSizeOptions * _Nullable outputSizeOptions;
+
+
+/**
+ 视频预览尺寸、比例配置项
+ 设置视频资产后可用
+ 
+ @since v3.4.2
+ */
+@property (nonatomic,readonly) TuSDKMovieEditorOutputSizeOptions * _Nullable prviewSizeOptions;
 
 /**
  获取默认配置项
