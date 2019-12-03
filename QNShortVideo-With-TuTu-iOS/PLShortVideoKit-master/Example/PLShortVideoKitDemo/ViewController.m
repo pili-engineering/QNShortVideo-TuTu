@@ -107,6 +107,7 @@
     [self.clickFeedback impactOccurred];
     
     RecordViewController *recordViewController = [[RecordViewController alloc] init];
+    recordViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:recordViewController animated:YES completion:nil];
 }
 
@@ -117,6 +118,7 @@
     PhotoAlbumViewController *photoAlbumViewController = [[PhotoAlbumViewController alloc] init];
     photoAlbumViewController.mediaType = PHAssetMediaTypeImage;
     photoAlbumViewController.maxSelectCount = 10;
+    photoAlbumViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:photoAlbumViewController animated:YES completion:nil];
 }
 
@@ -127,6 +129,7 @@
     MulitPhotoAlbumViewController *mulitPhotoAlbumViewController = [[MulitPhotoAlbumViewController alloc] init];
     mulitPhotoAlbumViewController.mediaType = PHAssetMediaTypeVideo;
     mulitPhotoAlbumViewController.maxSelectCount = 10;
+    mulitPhotoAlbumViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:mulitPhotoAlbumViewController animated:YES completion:nil];
 }
 
@@ -136,6 +139,7 @@
     
     H265MovieViewController *h265MovieViewController = [[H265MovieViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:h265MovieViewController];
+    navigationController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:navigationController animated:YES completion:nil];
 }
 
@@ -144,6 +148,7 @@
     [self.clickFeedback impactOccurred];
     
     ImageRotateViewController *imageRotateViewController = [[ImageRotateViewController alloc] init];
+    imageRotateViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:imageRotateViewController animated:YES completion:nil];
 }
 
@@ -152,6 +157,7 @@
     [self.clickFeedback impactOccurred];
     
     MultiVideoViewController *multiVideoViewController = [[MultiVideoViewController alloc] init];
+    multiVideoViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:multiVideoViewController animated:YES completion:nil];
 }
 
@@ -160,6 +166,7 @@
     [self.clickFeedback impactOccurred];
     
     VersionViewController *versionViewController = [[VersionViewController alloc] init];
+    versionViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:versionViewController animated:YES completion:nil];
 }
 
@@ -167,6 +174,7 @@
     [self.clickFeedback impactOccurred];
     
     ImageVideoMixViewController *imageVideoMixViewController = [[ImageVideoMixViewController alloc] init];
+    imageVideoMixViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:imageVideoMixViewController animated:YES completion:nil];
 }
 

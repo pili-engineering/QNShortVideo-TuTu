@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TuSDKVideoImport.h"
+#import "TuSDKFilterWrap.h"
+#import "TuSDKFilterLocalPackage.h"
 
 /**
  多个 TuSDKFilterWrap 叠加并多路输出
@@ -76,7 +77,7 @@
  @return TuSDKFilterWrap
  @since v3.2.0
  */
-- (TuSDKFilterWrap *)lastFilterWrapNode;
+- (TuSDKFilterWrap *_Nullable)lastFilterWrapNode;
 
 /**
  旋转材质到图片方向

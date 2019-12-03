@@ -1620,6 +1620,7 @@ TuSDKFilterProcessorMediaEffectDelegate
     DubViewController *dubViewController = [[DubViewController alloc]init];
     dubViewController.movieSettings = self.movieSettings;
     dubViewController.delegate = self;
+    dubViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:dubViewController animated:YES completion:nil];
 }
 
@@ -1701,6 +1702,7 @@ TuSDKFilterProcessorMediaEffectDelegate
             PlayViewController *playViewController = [[PlayViewController alloc]init];
             playViewController.actionType = PLSActionTypeGif;
             playViewController.url = url;
+            playViewController.modalPresentationStyle = UIModalPresentationFullScreen;
             [weakSelf presentViewController:playViewController animated:YES completion:nil];
         }];
         
@@ -2428,6 +2430,7 @@ TuSDKFilterProcessorMediaEffectDelegate
     GifFormatViewController *gifFormatViewController = [[GifFormatViewController alloc] init];
     gifFormatViewController.asset = asset;
     gifFormatViewController.videoURL = self.movieSettings[PLSURLKey];
+    gifFormatViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:gifFormatViewController animated:YES completion:nil];
 }
 
@@ -2437,6 +2440,7 @@ TuSDKFilterProcessorMediaEffectDelegate
     
     PlayViewController *playViewController = [[PlayViewController alloc] init];
     playViewController.url = url;
+    playViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:playViewController animated:YES completion:nil];
 }
 

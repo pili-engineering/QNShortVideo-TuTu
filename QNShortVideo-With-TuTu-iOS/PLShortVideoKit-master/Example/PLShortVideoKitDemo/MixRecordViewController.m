@@ -720,6 +720,7 @@ UICollectionViewDelegateFlowLayout
     EditViewController *videoEditViewController = [[EditViewController alloc] init];
     videoEditViewController.settings = outputSettings;
     videoEditViewController.filesURLArray = filesURLArray;
+    videoEditViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:videoEditViewController animated:YES completion:nil];
 }
 

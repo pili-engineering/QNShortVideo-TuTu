@@ -51,7 +51,7 @@
  预览视图容器
  @since v3.2.1
  */
-@property (nonatomic,readonly) UIView *holderView;
+@property (nonatomic,readonly) UIView * _Nullable holderView;
 
 /**
  输入的资产信息
@@ -250,6 +250,14 @@
  @return 特效列表
  */
 - (NSArray<id<TuSDKMediaEffect>> *_Nonnull)mediaEffectsWithType:(NSUInteger)effectType;
+
+/**
+ 获取添加的所有特效
+ 
+ @since      v3.4.0
+ @return 特效列表
+ */
+- (NSArray<id<TuSDKMediaEffect>> *_Nonnull)allMediaEffects;
 
 @end
 

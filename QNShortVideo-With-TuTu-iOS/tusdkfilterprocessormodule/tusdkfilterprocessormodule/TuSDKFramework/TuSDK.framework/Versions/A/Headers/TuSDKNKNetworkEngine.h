@@ -15,6 +15,9 @@
 extern BOOL const lsqTuSDKNKNetworkEngineDebug;
 
 extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeImage;
+extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeVideo;
+extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeEva;
+extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeFaceFuse;
 
 
 /**
@@ -56,6 +59,9 @@ extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeImage;
  */
 + (NSString *)uniqueDeviceID;
 
+// 全局唯一id
++ (NSString *)globalDeviceID;
+
 /**
  *  开发者ID
  */
@@ -83,8 +89,7 @@ extern NSString* const lsqTuSDKNKNetworkEngineHeadrSDKTypeImage;
  * 获取在线链接
  *
  * @param url
- * @param needAuth
- *            是否需要验证
+ * @param needAuth 是否需要验证
  * @return url
  */
 - (NSString *)webUrlWithUrl:(NSString *)url needAuth:(BOOL)needAuth;

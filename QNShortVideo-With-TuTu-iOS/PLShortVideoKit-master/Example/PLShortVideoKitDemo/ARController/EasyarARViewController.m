@@ -181,6 +181,7 @@ NSString *appSecret = @"ccdb6314b418829ef65fbfb3b14c8e30eee13f1f6a5370c5cc439551
     ARWebViewController *arwebVC = [ARWebViewController new];
     arwebVC.url = url;
     UINavigationController* navi = [[UINavigationController alloc] initWithRootViewController:arwebVC];
+    navi.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:navi animated:YES completion:nil];
 }
 
@@ -338,6 +339,7 @@ NSString *appSecret = @"ccdb6314b418829ef65fbfb3b14c8e30eee13f1f6a5370c5cc439551
 
     EditViewController *editViewController = [[EditViewController alloc] init];
     editViewController.settings = outputSettings;
+    editViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:editViewController animated:NO completion:nil];
 }
 
