@@ -667,9 +667,10 @@ public class VideoRecordActivity extends FragmentActivity implements
     }
 
     private PLCameraSetting.CAMERA_FACING_ID chooseCameraFacingId() {
-        if (PLCameraSetting.hasCameraFacing(PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_3RD)) {
-            return PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_3RD;
-        } else if (PLCameraSetting.hasCameraFacing(PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_FRONT)) {
+//        if (PLCameraSetting.hasCameraFacing(PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_3RD)) {
+//            return PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_3RD;
+//        } else
+        if (PLCameraSetting.hasCameraFacing(PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_FRONT)) {
             return PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_FRONT;
         } else {
             return PLCameraSetting.CAMERA_FACING_ID.CAMERA_FACING_BACK;
